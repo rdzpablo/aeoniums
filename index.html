@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" href="estiloResponsive.css">
+	<title>LandingPage</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white fixed-top">
+	<div class="container">
+		<h1 class="navbar-brand">LIBRO BOTÁNICO</h1>
+
+		<button class="navbar-toggler"data-toggle="collapse"data-target="#barra">
+			<span class="navbar-toggler-icon">
+			</span>
+		</button>
+		<div class="collapse navbar-collapse" id="barra">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item text-center mx-2"><a class="nav-link "href="#header">Inicio</a></li>
+				<li class="nav-item text-center mx-2"><a class="nav-link"href="#comentario">Comentario</a></li>
+				<li class="nav-item text-center mx-2"><a class="nav-link"href="#preguntas">Preguntas Frecuentes</a></li>
+				<li class="nav-item text-center mx-2"><a class="nav-link"href="#contacto">Contacto</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<header id="header">
+	<div class="fondo ">
+		<div class="container ">
+			<div class="row">
+				<div class="imagen-libro col-md-6 my-5 text-center">
+					<img class="img-fluid"src="libro.png">
+				</div>
+				<div class="info-libro col-md-6 my-5 text-white my-auto">
+					<h2 class="mb-4">AEONIUMS</h2>
+					<p class="my-5">Lorem ipsum dolor sit ametamet, consectetur adipisicing elit, sed do eiusmod
+					xcepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum, consectetur adipisicing elit, sed do eiusmod
+					xcepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<button class="btn btn-dark btn-lg">DESCARGAR GRATIS</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="comentario py-5"id="comentario">
+	<div class="container pt-5">
+		<div class="row">
+			<div class="comentario-descripccion text-center">
+				<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				<h5 class="pt-3">-Pablo Rodriguez-</h5>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="preguntas py-5" id="preguntas">
+	<div class="container py-5">
+		<div class="row">
+			<h2 class="mb-5 text-center w-100">PREGUNTAS FRECUENTES</h2>
+			<div class="accordion w-100 text-center " id="accordionExample">
+  				<div class="card ">
+    				<div class="card-header bg-dark " id="headingOne">
+     					 <h2 class="mb-0">
+	       					 <button class="btn btn-link btn-block text-center text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	        				 ¿Por que comprar este libro?
+	        				</button>
+      					</h2>
+    				</div>
+
+    			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Este libro es muy atractivo para las mentes imaginarias....Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header bg-dark " id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-center collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          ¿Es gratis?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        Si totalmente gratis, y registrate para poder seguir enviandote informacion sobre mas libros gratuitos. gracias ;) 
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header bg-dark " id="headingThree">
+      <h2 class="mb-0"> 
+        <button class="btn btn-link btn-block text-center collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          ¿Es un solo libro?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Si claro, pero tendremos mas disponibles mas adelante...Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua punth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header bg-dark " id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-center collapsed text-white" type="button" data-toggle="collapse" data-target="#collapsetres" aria-expanded="false" aria-controls="collapseTwo">
+          ¿Existe algun libro similar en stock?
+        </button>
+      </h2>
+    </div>
+    <div id="collapsetres" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        Tal vez encontremos otro libro parecido.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header bg-dark " id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-center collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseultima" aria-expanded="false" aria-controls="collapseTwo">
+          ¿Continua en otro libro?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseultima" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+       No, es un unico libro.
+      </div>
+    </div>
+  </div>
+</div>
+		</div>
+	</div>
+</section>
+
+<section class="contacto py-5"id="contacto">
+	<div class="container pt-5">
+		<div class="row">
+			<h2 class="text-center w-100 mb-5">CONTACTANOS</h2>
+			<form class="col-md-8">
+				<div class="input-group mb-3">
+					<i class=" input-group-text fa fa-user"></i>
+					<input class="form-control"type="text" name="nombre" placeholder="Nombre">
+				</div>
+
+
+				<div class="input-group mb-3">
+					<i class=" input-group-text fa fa-envelope-o"></i>
+					<input class="form-control"type="email" name="nombre" placeholder="E-mail">
+				</div>
+			
+			
+				<div class="input-group mb-3">
+					<i class=" input-group-text fa fa-pencil"></i>
+					<textarea class="form-control " cols="30" rows="8" type="text" name="nombre" placeholder="Escriba su mensaje aqui"></textarea>
+				</div>
+				<button class="btn btn-dark text-white form-control">ENVIAR</button>
+			</form>
+
+			
+			
+				
+			
+		</div>
+
+	</div>
+</section>
+<footer class="footer bg-dark text-white">
+	<div class="container">
+		<div class="row text-center">
+			
+			<h6 class=" copy w-100 text-center ">&copy PABLO RODRIGUEZ 2020</h6>
+			
+		</div>
+	</div>
+</footer>
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

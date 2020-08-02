@@ -1,0 +1,74 @@
+.navbar-nav li{
+	color:#fff;
+	text-transform: uppercase;
+}
+header{
+	background-image: url("fondo.webp");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+.fondo{
+	width: 100%;
+	height: 100%;
+	padding:50px 0;
+	background-color: rgba(42, 157, 143,.3);
+}
+.imagen-libro img{
+	width: 60%;
+}
+p{
+	font-size: 20px;
+	margin:10px;
+}
+h2{
+	letter-spacing: 5px;
+}
+.btn{
+	letter-spacing: 2px;
+}
+.tarjetas{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.tarjetas .caja-tarjeta{
+	flex:0 0 calc(25% - 10px);
+	width: calc(25% - 10px);
+}
+.tarjetas .caja-tarjeta img{
+	text-align: center;
+	width: 60%;
+}
+.tarjetas .imagen-tarjeta{
+	width: 60%;
+	text-align: center;
+	margin: 10px auto;
+}
+.tarjetas .imagen-tarjeta img{
+	width: 100%;
+}
+.imagen-formulario img{
+	width: 100%;
+	border-radius: 20px;
+}
+.contacto{
+	background-image: url("fondo2.webp");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+.footer {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.copy{
+	margin:auto;
+}
+html{
+    scroll-behavior: smooth;
+}
